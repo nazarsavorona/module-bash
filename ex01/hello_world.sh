@@ -2,7 +2,7 @@
 
 to_greet="World"
 
-if [ $1 ]; then
+if [[ $# != 0 ]]; then
     to_greet=$1
 fi
 
